@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aya Ahmed - Junior Front-End Developer portfolio" />
+  <title>Aya Ahmed — Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Libre+Caslon+Display&family=Playfair+Display:ital,wght@1,500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Aya Ahmed home">
+      <img src="image/photo_2026-11-18_23-31-04.png" alt="Aya Ahmed — Front-End Developer" />
+    </a>
+
+    <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false"
+      aria-controls="main-menu">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-menu" id="main-menu" aria-hidden="true">
+      <button class="menu-close" type="button" aria-label="Close navigation">
+        <span></span><span></span>
+      </button>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-content">
+        <p class="eyebrow">
+          <span class="status-dot" aria-hidden="true"></span>
+          Available for opportunities
+        </p>
+        <p class="hero-greeting">Hello, I’m Aya Ahmed.</p>
+        <h1 id="hero-title">
+          I bring ideas<br />
+          to life on the <em>web.</em>
+        </h1>
+        <p class="intro">
+          Junior Front-End Developer building clean, responsive, and
+          user-friendly websites<br class="desktop-break" />
+          with care, curiosity, and a love for the details.
+        </p>
+        <div class="actions">
+          <a class="button button-primary" href="#projects">
+            View my work <span class="arrow" aria-hidden="true">→</span>
+          </a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+      </div>
+      <div class="hero-art" role="img" aria-label="Abstract illustration of a developer workspace">
+        <span class="art-label art-label-creative">creative</span>
+        <span class="art-label art-label-responsive">responsive</span>
+        <div class="code-window">
+          <div class="window-top">
+            <span class="window-dots"><i></i><i></i><i></i></span>
+            <span>portfolio.tsx</span>
+            <span class="window-menu">···</span>
+          </div>
+          <div class="code-content" aria-hidden="true">
+            <p><i>01</i><span>const developer = {</span></p>
+            <p><i>02</i><span> name: <b>'Aya'</b>,</span></p>
+            <p><i>03</i><span> craft: <b>'frontend'</b>,</span></p>
+            <p><i>04</i><span> focus: <b>'details'</b></span></p>
+            <p><i>05</i><span>}</span></p>
+            <p><i>06</i></p>
+            <p><i>07</i><span><em>function</em> create() {</span></p>
+            <p><i>08</i><span> <em>return</em> beautifulWeb</span></p>
+            <p><i>09</i><span>}</span></p>
+          </div>
+        </div>
+        <div class="art-stamp"><span>&lt;/&gt;</span></div>
+        <div class="art-caption"><span>DESIGN</span><i>+</i><span>CODE</span></div>
+        <span class="art-spark art-spark-one">✳</span>
+        <span class="art-spark art-spark-two">✳</span>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="section-heading">
+        <p class="section-kicker">About me</p>
+        <h2>A curious mind with a <em>creative eye.</em></h2>
+      </div>
+      <div class="about-copy">
+        <p class="about-lead">
+          I’m a <strong>Computer Science graduate</strong> with a passion for
+          turning thoughtful ideas into beautiful, functional web experiences.
+        </p>
+        <p>
+          My journey into front-end development began with a fascination for
+          the space where logic meets creativity. I enjoy transforming designs
+          into polished interfaces that feel as good to use as they look.
+        </p>
+        <p>
+          I’m always learning, refining my craft, and exploring better ways to
+          create accessible and meaningful experiences for people across every
+          device.
+        </p>
+        <div class="values-list">
+          <span><i>01</i>Thoughtful details</span>
+          <span><i>02</i>Clean code</span>
+          <span><i>03</i>Human-first design</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section section-wrap" id="projects">
+      <div class="section-intro">
+        <div class="section-heading">
+          <p class="section-kicker">Selected projects</p>
+          <h2>Work I’m <em>proud of.</em></h2>
+        </div>
+        <p>
+          A selection of experiences built with intention—balancing strong
+          visual direction with clean, responsive code.
+        </p>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <a class="project-image project-image-fazzaa" href="https://aya-ahmed25.github.io/Fazzaa-Juice-Zalabya/"
+            target="_blank" rel="noreferrer" aria-label="View Fazzaa live website">
+            <img src="image/screencapture-aya-ahmed25-github-io-Fazzaa-Juice-Zalabya-2026-11-18-23_49_43.png"
+              alt="Screenshot of the Fazzaa Juice and Zalabya website" loading="lazy" />
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <div class="project-number">01</div>
+            <div class="project-title">
+              <h3>Fazzaa</h3>
+              <span>Juice &amp; Zalabya</span>
+            </div>
+            <p>
+              A playful Arabic food experience with a bold visual identity,
+              responsive layouts, and an engaging product showcase.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://aya-ahmed25.github.io/Fazzaa-Juice-Zalabya/" target="_blank" rel="noreferrer">Live demo
+                <b>↗</b></a>
+              <a href="https://github.com/aya-ahmed25/Fazzaa-Juice-Zalabya" target="_blank" rel="noreferrer">GitHub
+                <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image project-image-lumiere" href="https://aya-ahmed25.github.io/LUMI-RE/" target="_blank"
+            rel="noreferrer" aria-label="View LUMIÈRE live website">
+            <img src="image/Screenshot 2026-11-18 234559.png" alt="Screenshot of the LUMIÈRE fine jewelry website"
+              loading="lazy" />
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <div class="project-number">02</div>
+            <div class="project-title">
+              <h3>LUMIÈRE</h3>
+              <span>Fine Jewelry</span>
+            </div>
+            <p>
+              An elegant fine-jewelry storefront with refined typography,
+              curated collections, and a premium editorial feel.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://aya-ahmed25.github.io/LUMI-RE/" target="_blank" rel="noreferrer">Live demo <b>↗</b></a>
+              <a href="https://github.com/aya-ahmed25/LUMI-RE" target="_blank" rel="noreferrer">GitHub <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <a class="project-image project-image-nabd" href="https://aya-ahmed25.github.io/nabd-sales-dashboard/"
+            target="_blank" rel="noreferrer" aria-label="View Nabd sales dashboard live website">
+            <img src="image/screencapture-aya-ahmed25-github-io-nabd-sales-dashboard-2026-11-19-01_34_08.png"
+              alt="Screenshot of the Nabd sales dashboard website" loading="eager" />
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <div class="project-number">03</div>
+            <div class="project-title">
+              <h3>Nabd</h3><span>Sales Dashboard</span>
+            </div>
+            <p>
+              A clear sales dashboard bringing revenue, orders, best sellers,
+              and customer insights together in one place.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://aya-ahmed25.github.io/nabd-sales-dashboard/" target="_blank" rel="noreferrer">Live demo
+                <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+
+        <article class="project-card">
+          <a class="project-image project-image-nabd" href="https://aya-ahmed25.github.io/Beige-Co/" target="_blank"
+            rel="noreferrer" aria-label="View Beige Co. live website">
+            <img src="image/screencapture-aya-ahmed25-github-io-Beige-Co-2026-11-20-22_24_20.png"
+              alt="Screenshot of the Beige Co. website" loading="eager" />
+            <span class="image-arrow" aria-hidden="true">↗</span>
+          </a>
+          <div class="project-info">
+            <div class="project-number">03</div>
+            <div class="project-title">
+              <h3>Beige Co.</h3><span>E-commerce Website</span>
+            </div>
+            <p>
+              A clean and modern e-commerce website for a fashion brand, featuring a minimalist design, intuitive
+              navigation, and responsive layouts for an optimal shopping experience.
+            </p>
+            <div class="tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://aya-ahmed25.github.io/Beige-Co/" target="_blank" rel="noreferrer">Live demo
+                <b>↗</b></a>
+            </div>
+          </div>
+        </article>
+
+
+      </div>
+    </section>
+
+    <section class="skills-section section-wrap" id="skills">
+      <div class="skills-intro">
+        <div class="section-heading">
+          <p class="section-kicker">My toolkit</p>
+          <h2>Skills that shape <em>the experience.</em></h2>
+        </div>
+        <p>
+          A focused toolkit for crafting modern digital experiences from a
+          solid foundation to the final responsive detail.
+        </p>
+      </div>
+      <div class="skill-list">
+        <article class="skill-row">
+          <span>01</span>
+          <h3>HTML</h3>
+          <p>Semantic, accessible structure</p>
+          <i aria-hidden="true"><svg viewBox="0 0 24 24">
+              <path d="M7 17 17 7M8 7h9v9"></path>
+            </svg></i>
+        </article>
+        <article class="skill-row">
+          <span>02</span>
+          <h3>CSS</h3>
+          <p>Modern layouts &amp; styling</p>
+          <i aria-hidden="true"><svg viewBox="0 0 24 24">
+              <path d="M7 17 17 7M8 7h9v9"></path>
+            </svg></i>
+        </article>
+        <article class="skill-row">
+          <span>03</span>
+          <h3>JavaScript</h3>
+          <p>Interactive web experiences</p>
+          <i aria-hidden="true"><svg viewBox="0 0 24 24">
+              <path d="M7 17 17 7M8 7h9v9"></path>
+            </svg></i>
+        </article>
+        <article class="skill-row">
+          <span>04</span>
+          <h3>GitHub</h3>
+          <p>Version control &amp; collaboration</p>
+          <i aria-hidden="true"><svg viewBox="0 0 24 24">
+              <path d="M7 17 17 7M8 7h9v9"></path>
+            </svg></i>
+        </article>
+        <article class="skill-row">
+          <span>05</span>
+          <h3>Responsive Design</h3>
+          <p>Fluid across every screen</p>
+          <i aria-hidden="true"><svg viewBox="0 0 24 24">
+              <path d="M7 17 17 7M8 7h9v9"></path>
+            </svg></i>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact">
+      <div class="contact-copy">
+        <p class="section-kicker">Get in touch</p>
+        <h2>Have an idea?<br />Let’s make it <em>happen.</em></h2>
+        <p class="contact-description">
+          I’m open to junior opportunities, freelance projects, and meaningful
+          collaborations. If you have something in mind, I’d love to hear
+          about it.
+        </p>
+        <div class="contact-links">
+          <a href="https://github.com/aya-ahmed25" target="_blank" rel="noreferrer"><i class="fa-brands fa-github social-brand-icon" aria-hidden="true"></i>GitHub <i>View
+              profile</i><span>↗</span></a>
+          <a href="mailto:ayia2a7med@gmail.com"><i class="fa-solid fa-envelope social-brand-icon" aria-hidden="true"></i>Email <i>ayia2a7med@gmail.com</i></a>
+          <a href="https://www.instagram.com/ayia2_a7med?fqnt=ZzVhdnd2dzV5NWNl" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram social-brand-icon" aria-hidden="true"></i>Instagram <i>View
+              profile</i><span>↗</span></a>
+          <a href="https://www.facebook.com/aya.eldagag.58" target="_blank" rel="noreferrer"><i class="fa-brands fa-facebook social-brand-icon" aria-hidden="true"></i>Facebook <i>View
+              profile</i><span>↗</span></a>
+          <a href="https://wa.me/201066893498" target="_blank" rel="noreferrer"><i class="fa-brands fa-whatsapp social-brand-icon" aria-hidden="true"></i>WhatsApp <i>View
+              profile</i><span>↗</span></a>
+
+          <a href="https://www.linkedin.com/in/aya-ahmed8?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+            target="_blank" rel="noreferrer"><i class="fa-brands fa-linkedin social-brand-icon" aria-hidden="true"></i>LinkedIn <i>View profile</i><span>↗</span></a>
+        </div>
+      </div>
+      <form class="contact-form">
+        <label for="contact-name">Your name</label>
+        <input id="contact-name" name="name" type="text" placeholder="Tell me your name" required />
+        <label for="contact-email">Your email</label>
+        <input id="contact-email" name="email" type="email" placeholder="you@example.com" required />
+        <label for="contact-message">Tell me about your project</label>
+        <textarea id="contact-message" name="message" rows="4" placeholder="A few words about your idea..."
+          required></textarea>
+        <button class="button button-primary" type="submit">Send message <span class="arrow"
+            aria-hidden="true">→</span></button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#home">AYA<span>•</span></a>
+    <p>Designed &amp; developed with intention.</p>
+    <a class="back-to-top" href="#home">
+      Back to top
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 12h14m-5-5 5 5-5 5"></path>
+      </svg>
+    </a>
+    <small>Created by <a href="mailto:ayia2a7med@gmail.com">AYA AHmed</a> © 2026</small>
+  </footer>
+
+  <button class="scroll-top" type="button" aria-label="Scroll to top" title="Scroll to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M12 19V5m-7 7 7-7 7 7"></path>
+    </svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
